@@ -85,16 +85,6 @@ define( 'GOGO_THEME_NAME', 'gogo' );
                 'active_filename' => 'hunk-companion/hunk-companion.php',
             ),
 
-            'th-advance-product-search' => array(
-            'name' => esc_html__( 'TH Advance Product Search', 'gogo' ),
-            'img' => 'icon-128x128.gif',
-            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'gogo' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'gogo' ),
                  'img' => 'icon-128x128.png',
@@ -111,17 +101,24 @@ define( 'GOGO_THEME_NAME', 'gogo' );
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
 
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product Search', 'gogo' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'gogo' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
+            
+
             'elementor' => array(
                 'name' => esc_html__( 'Elementor', 'gogo' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'elementor/elementor.php',
             ),
 
-            'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'gogo' ),
-                  'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
 
 
         ) );

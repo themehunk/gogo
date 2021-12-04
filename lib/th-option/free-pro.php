@@ -289,7 +289,7 @@
                         </div>
                      </td>
                      <td class="status upsell"><?php _e('Access to all Pro features','gogo'); ?> </td>
-                     <td class="status success"><a href="https://themehunk.com/product/gogo-amazing-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get Gogo Pro Now','gogo'); ?></a></td>
+                     <td class="status success"><a href="<?php echo esc_url('https://themehunk.com/product/gogo-amazing-wordpress-theme/');?>" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get Gogo Pro Now','gogo'); ?></a></td>
                   </tr>
 
 

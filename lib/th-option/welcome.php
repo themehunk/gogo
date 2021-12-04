@@ -31,7 +31,7 @@
 		 	 
 		 
     <p>
-        <a target="_blank" href="https://themehunk.com/docs/gogo-theme/#homepage-setting" class="button"><?php _e('Go to Doc','gogo'); ?></a>
+        <a target="_blank" href="<?php echo esc_url('https://themehunk.com/docs/gogo-theme/#homepage-setting');?>" class="button"><?php _e('Go to Doc','gogo'); ?></a>
     </p>
 </div>
 

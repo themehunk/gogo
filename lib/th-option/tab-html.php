@@ -95,10 +95,7 @@
 
             <div id="Get-Child-Theme" class="tabcontent">
                 <div class="rp-two-column">
-                    <?php //require ONELINE_LITE_THEME_DIR . 'inc/th-option/get-child-theme.php'; ?>
-
                     <?php require_once( trailingslashit( get_template_directory() ) . 'lib/th-option/get-child-theme.php'); ?>
-
 
 
                 </div>
