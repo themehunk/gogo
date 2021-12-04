@@ -73,33 +73,84 @@ define( 'GOGO_THEME_NAME', 'gogo' );
 	    'default-color' => 'eaeaea',
         );
         add_theme_support( 'custom-background',$args );
-         // Recommend plugins
+
+
+
+// Recommend plugins
         add_theme_support( 'recommend-plugins', array(
-            'hunk-companion' => array(
+
+        	'hunk-companion' => array(
                 'name' => esc_html__( 'Hunk Companion', 'gogo' ),
+                'img' => 'icon-128x128.png',
                 'active_filename' => 'hunk-companion/hunk-companion.php',
+            ),
+
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product Search', 'gogo' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'gogo' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
             ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'gogo' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
-            ),
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'gogo' ),
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ),
-            'elementor' => array(
-                'name' => esc_html__( 'Elementor', 'gogo' ),
-                'active_filename' => 'elementor/elementor.php',
             ),
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'gogo' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'gogo' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
             ),
+
+            'elementor' => array(
+                'name' => esc_html__( 'Elementor', 'gogo' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'elementor/elementor.php',
+            ),
+
+            'yith-woocommerce-wishlist' => array(
+                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'gogo' ),
+                  'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
+             ),
+
+
+        ) );
+
+        // Import Data Content plugins
+        add_theme_support( 'import-demo-content', array(
+
+
+            'one-click-demo-import' => array(
+                'name' => esc_html__( 'One Click Demo Import', 'gogo' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'gogo' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
+
+        ));
+
+        // Useful plugins
+        add_theme_support( 'useful-plugins', array(
              'themehunk-megamenu-plus' => array(
                 'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'gogo' ),
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
             ),
         ) );
+         
 	}
 endif;
 add_action( 'after_setup_theme', 'gogo_setup' );
