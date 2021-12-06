@@ -20,6 +20,8 @@
         </div>
         <div class="th-option-bottom-hdr">
             <a class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','gogo');?></a>
+
+            <a class="tablinks" onclick="openTab(event, 'Import-Demo-Content')"><?php _e('Setup Home Page','gogo');?> </a>
             <a class="tablinks" onclick="openTab(event, 'Recommended-Plugin')"><?php _e('Recommended Plugin','gogo');?> </a>
             
             <a class="tablinks get-child" onclick="openTab(event, 'Get-Child-Theme')"><?php _e('Get Child Theme','gogo');?></a>
@@ -58,25 +60,54 @@
 
                 <div class="rcp theme_link th-row import-demo">
                     <div class="import-image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/import.png">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/setup-homepage.png">
                     </div>
                 <div class="title-plugin">
-                <h3><?php _e('Click Here To Import Demo Content','gogo'); ?></h3>
+                <h3><?php _e('Click Here To Setup Home Page','gogo'); ?></h3>
 				 
-				 <p> <?php _e('You need to Install required plugins like- Themehunk Customizer, WooCommerce and One click demo import plugin. After installing required plugins import button will activate.', 'gogo'); ?></p>
-              <a class="button disabled importdemo"><?php _e( 'Import Demo', 'gogo' ); ?></a>
+				 <p> <?php _e('You can setup your website homepage in just one click. Click the below button and it will automatically set your homepage.', 'gogo'); ?></p>
+
+                 <!---
+              <a class="button disabled importdemo"><?php //_e( 'Setup Home Page', 'gogo' ); ?></a> -->
+
+
+                <p>
+        <?php
+        if($this->_check_homepage_setup()){
+            $class = "activated";
+            $btn_text = __("Home Page Activated",'gogo');
+            $Bstyle = "display:none;";
+            $style = "display:inline-block;";
+        }else{
+            $class = "default-home";
+             $btn_text = __("Set Home Page",'gogo');
+             $Bstyle = "display:inline-block;";
+            $style = "display:none;";
+
+
+        }
+        ?>
+        <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?PHP echo $class; ?>"><?php _e($btn_text,'gogo'); ?></button>
+        
+         </p>
 				 
              </div>
 
              </div>
-             
-                  
+        
                 <?php $this->plugin_install('import-demo-content'); ?>
+
+
             
             </div>
 
         
         </div>
+
+
+
+
+        
 
         <div id="Recommended-Plugin" class="tabcontent">
             <div class="rp-two-column">

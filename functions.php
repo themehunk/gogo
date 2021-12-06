@@ -126,17 +126,12 @@ define( 'GOGO_THEME_NAME', 'gogo' );
         // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
 
-
-            'one-click-demo-import' => array(
-                'name' => esc_html__( 'One Click Demo Import', 'gogo' ),
+        	'hunk-companion' => array(
+                'name' => esc_html__( 'Hunk Companion', 'gogo' ),
                 'img' => 'icon-128x128.png',
-                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
-            ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'gogo' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
+                'active_filename' => 'hunk-companion/hunk-companion.php',
             ),
+
 
         ));
 
