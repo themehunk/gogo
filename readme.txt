@@ -23,10 +23,9 @@ Yes, this theme is tested with latest version of WordPress, you can use it for y
 == Changelog ==
 
 = 1.1.3 =
-* Th option panel updated.
+* Theme option panel updated.
 * Child theme notification added.
 * Esc url issue fixed.
-* Yith plugin removed.
 
 = 1.1.2 =
 * Theme Support link changed.

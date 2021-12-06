@@ -61,7 +61,7 @@ function tab_page() {
 function default_home() {
 $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'frontpage.php'
+    'meta_value' => 'gogo-frontpage.php'
 ));
   $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 if(empty($pages)){
@@ -72,7 +72,7 @@ if(empty($pages)){
        'post_status' => 'publish',
        'comment_status' => 'closed',   // if you prefer
        'ping_status' => 'closed',      // if you prefer
-       'page_template' =>'frontpage.php', //Sets the template for the page.
+       'page_template' =>'gogo-frontpage.php', //Sets the template for the page.
     ));
   }
       if($post_id){
@@ -89,7 +89,7 @@ function _check_homepage_setup(){
 
     $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'frontpage.php'
+    'meta_value' => 'gogo-frontpage.php'
 ));
    $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 

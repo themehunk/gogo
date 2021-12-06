@@ -65,7 +65,7 @@
                 <div class="title-plugin">
                 <h3><?php _e('Click Here To Setup Home Page','gogo'); ?></h3>
 				 
-				 <p> <?php _e('You can setup your website homepage in just one click. Click the below button and it will automatically set your homepage.', 'gogo'); ?></p>
+				 <p> <?php _e('Click the below button and it will automatically set your homepage. You will need to install the Hunk Companion plugin for properly working sections on the homepage.', 'gogo'); ?></p>
 
                  <!---
               <a class="button disabled importdemo"><?php //_e( 'Setup Home Page', 'gogo' ); ?></a> -->
@@ -88,26 +88,13 @@
         }
         ?>
         <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?PHP echo $class; ?>"><?php _e($btn_text,'gogo'); ?></button>
-        
+        <a style="<?php echo $style; ?>";  target="_blank" href="<?php echo get_home_url(); ?>" class="button alink button-primary"><?php _e('View Home Page','big-store'); ?></a>
          </p>
-				 
              </div>
-
              </div>
-        
                 <?php $this->plugin_install('import-demo-content'); ?>
-
-
-            
             </div>
-
-        
         </div>
-
-
-
-
-        
 
         <div id="Recommended-Plugin" class="tabcontent">
             <div class="rp-two-column">
