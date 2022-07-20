@@ -237,7 +237,7 @@ function gogo_bottom_footer_markup_lite(){
                           );
                 $url = "https://themehunk.com/product/gogo-amazing-wordpress-theme/";
               echo  sprintf( 
-                wp_kses( __( 'Gogo developed by <a href="%s" target="_blank">ThemeHunk</a>', 'gogo' ), $allowed_html), esc_url( $url ) );
+                wp_kses( __( 'Gogo developed by <a href="%s" target="_blank" class="th-branding">ThemeHunk</a>', 'gogo' ), $allowed_html), esc_url( $url ) );
       ?>
                  </div>
                </div>

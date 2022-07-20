@@ -83,7 +83,7 @@ $gogo_heading_font           = get_theme_mod('gogo_heading_font');
 $gogo_heading_text_transform = get_theme_mod('gogo_heading_text_transform');
 if(!empty($gogo_heading_font)){
 gogo_enqueue_google_font($gogo_heading_font);
-$gogo_typography_style.=".woocommerce .page-title,h2.widget-title,.site-title h1,h2.entry-title,h2.entry-title a,h1.entry-title,h2.comments-title,h3.comment-reply-title,h4.author-header,.gogo-related-post h3,#content.blog-single .gogo-related-post ul li h3 a,h3.widget-title,.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title,.woocommerce h1.product_title, .woocommerce-Tabs-panel h2, .related.products h2, section.up-sells h2, .cross-sells h2, .cart_totals h2, .woocommerce-billing-fields h3, .woocommerce-account .addresses .title h3,
+$gogo_typography_style.=".woocommerce .page-title,h4.widget-title,.site-title h1,h2.entry-title,h2.entry-title a,h1.entry-title,h2.comments-title,h3.comment-reply-title,h4.author-header,.gogo-related-post h3,#content.blog-single .gogo-related-post ul li h3 a,h3.widget-title,.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title,.woocommerce h1.product_title, .woocommerce-Tabs-panel h2, .related.products h2, section.up-sells h2, .cross-sells h2, .cart_totals h2, .woocommerce-billing-fields h3, .woocommerce-account .addresses .title h3,
   h2.short-heading,
   .thunk-service .service-txt h4,
   h2.call-to-heading,

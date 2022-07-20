@@ -34,7 +34,7 @@ $gogo_style .= "a,.single .nav-previous:before,.single .nav-next:after,.gogo-men
 //body-text-color
   $gogo_style .= "body,.gogo-site #content .entry-meta{color:{$gogo_text_clr}}";
 //title-color
-  $gogo_style .= "article h2.entry-title a,#sidebar-primary h2.widget-title,.woocommerce h1.product_title, .woocommerce-Tabs-panel h2, .related.products h2, section.up-sells h2, .cross-sells h2, .cart_totals h2, .woocommerce-billing-fields h3, .woocommerce-account .addresses .title h3,h1.page-title, h1.entry-title{color:{$gogo_title_clr}}";
+  $gogo_style .= "article h2.entry-title a,#sidebar-primary h4.widget-title,.woocommerce h1.product_title, .woocommerce-Tabs-panel h2, .related.products h2, section.up-sells h2, .cross-sells h2, .cart_totals h2, .woocommerce-billing-fields h3, .woocommerce-account .addresses .title h3,h1.page-title, h1.entry-title{color:{$gogo_title_clr}}";
 //pagination
     $gogo_style .= ".next.page-numbers, .prev.page-numbers,.page-numbers{border: 1px solid {$gogo_theme_clr};
     background:{$gogo_theme_clr};}";

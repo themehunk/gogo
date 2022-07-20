@@ -105,8 +105,8 @@ if ( ! class_exists( 'Gogo_Woocommerce' ) ) :
 		              'description'   => esc_html__( 'Add widgets here to appear in your WooCommerce Sidebar.', 'gogo' ),
 		              'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="gogo-widget-content">',
 		              'after_widget'  => '</div></section>',
-		              'before_title'  => '<h2 class="widget-title">',
-		              'after_title'   => '</h2>',
+		              'before_title'  => '<h4 class="widget-title">',
+		              'after_title'   => '</h4>',
 	        ) );
 			register_sidebar(array(
 		              'name'          => esc_html__( 'Product Sidebar', 'gogo' ),
@@ -114,8 +114,8 @@ if ( ! class_exists( 'Gogo_Woocommerce' ) ) :
 		              'description'   => esc_html__( 'This sidebar will be used on Single Product page.', 'gogo' ),
 		              'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="gogo-widget-content">',
 		              'after_widget'  => '</div></section>',
-		              'before_title'  => '<h2 class="widget-title">',
-		              'after_title'   => '</h2>',
+		              'before_title'  => '<h4 class="widget-title">',
+		              'after_title'   => '</h4>',
 	        ) );
 		}
 		/**

@@ -167,8 +167,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in your primary sidebar.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="gogo-widget-content">',
 		'after_widget'  => '</div></section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Above Header First Widget', 'gogo' ),
@@ -176,8 +176,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in top header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Above Header Second Widget', 'gogo' ),
@@ -185,8 +185,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in top header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
     register_sidebar(array(
 		'name'          => esc_html__( 'Above Header Third Widget', 'gogo' ),
@@ -194,8 +194,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in top header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Below Header First Widget', 'gogo' ),
@@ -203,8 +203,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Below Header Second Widget', 'gogo' ),
@@ -212,8 +212,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Below Header Third Widget', 'gogo' ),
@@ -221,8 +221,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Main Header Widget', 'gogo' ),
@@ -230,8 +230,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in main header.', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Footer Top First Widget', 'gogo' ),
@@ -239,8 +239,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in Top Footer', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Footer Top Second Widget', 'gogo' ),
@@ -248,8 +248,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in Top Footer', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Footer Top Third Widget', 'gogo' ),
@@ -257,8 +257,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in Top Footer', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
     register_sidebar(array(
 		'name'          => esc_html__( 'Footer Below First Widget', 'gogo' ),
@@ -266,8 +266,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below footer', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Footer Below Second Widget', 'gogo' ),
@@ -275,8 +275,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below footer','gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	register_sidebar(array(
 		'name'          => esc_html__( 'Footer Below Third Widget', 'gogo' ),
@@ -284,8 +284,8 @@ function gogo_widgets_init(){
 		'description'   => esc_html__( 'Add widgets here to appear in below Footer', 'gogo' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
 	) );
 	for ( $i = 1; $i <= 4; $i++ ){
 		register_sidebar( array(
