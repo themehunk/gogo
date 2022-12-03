@@ -3,7 +3,7 @@ Contributors: Themehunk
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 5.6
 Tested up to: 6.1
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -21,6 +21,9 @@ Yes our theme supports builder
 Yes, this theme is tested with latest version of WordPress, you can use it for your site.
 
 == Changelog ==
+= 1.1.6 =
+* Theme tested with WordPress 6.1.
+
 = 1.1.5 =
 * Seo Optimization.
 
@@ -75,8 +78,8 @@ Blog page issue fixed
 * theme released
 
 == Upgrade Notice ==
-= 1.1.5 =
-* Seo Optimization.
+= 1.1.6 =
+* Theme tested with WordPress 6.1.
 
 == Resources ==
 

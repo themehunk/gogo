@@ -4,7 +4,7 @@ Theme URI: https://themehunk.com/product/gogo-amazing-wordpress-theme/
 Author: ThemeHunk
 Author URI: https://www.themehunk.com
 Description: Gogo is an amazing multipurpose theme with latest design. Theme is loaded with multiple sections that are enough to create a complete business site with free version. Theme is best suitable for Agency, small businesses, portfolio, firm, corporate and eCommerce sites. It contains following sections like - #Slider section with typewriter #Services #WooCommerce #Call to action  #About us #Portfolio #Team #Pricing #Clients & Testimonials  #VideoRibbon #Contact Us and #Social media. You can hide any particular section that you're not using.  You can also use these section columns as a Slider. Get full control over homepage layout settings like (padding, numbering, without numbering, Center Alignment of section, Boxed & Wide container). It has Five header layout & Eight footer layouts. In them you'll get add Above / Below header and footer area with one, two and three layout column combination. You can smoothly customize Header, Footer, Container and Sidebar for each page / post. Theme comes with full control over post and WooCommerce. Theme is integrated with WooCommerce and Lead Form Builder. It is compatible with nearly all famous WordPress plugins. You can use your favorite page builder (Like : Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc ). Demo: https://themehunk.com/gogo-amazing-wordpress-theme/
-Version: 1.1.5
+Version: 1.1.6
 Requires at least: 4.5
 Tested up to: 6.1
 Requires PHP: 5.6
@@ -3678,7 +3678,7 @@ border-radius: 2px;
 }
 #move-to-top{
     right: 20px;
-    bottom: 30px;
+    bottom: 152px;
 }
 #move-to-top:not(.filling){
     opacity: 0;
@@ -5078,7 +5078,16 @@ font-size:0.7em;
 #content[tabindex="-1"]:focus {
   outline: 0;
 }
-
+.thunk-content-area .leadform-show-form h2{
+  width: 100%;
+}
+.thunk-clients-and-testimonials .owl-dots{
+  display: none;
+}
+.sidebar-main button{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 @media screen and (max-width:1024px){
 .mhdrleftpan .sider.left{
 border-right:0px;
@@ -5116,6 +5125,9 @@ background:transparent;
 .main-header .main-header-col2 .cart-contents{
 margin-right: 10px;
 margin-left:0;
+}
+[type="submit"]{
+  padding: 9px 18px;
 }
 }
 @media only screen and (max-width: 959px){
@@ -5191,8 +5203,7 @@ img.alignright, div.alignright, figure.alignright, img.alignleft, div.alignleft,
    padding:0!important;
    margin-top: 20px;
    margin-bottom: 20px;
-   max-width: 330px;
-  float: none;
+   float: none;
 }
 #content .gogo-two-colm article,
 #content .gogo-three-colm article,
@@ -5367,6 +5378,9 @@ margin-left:0;
     position: relative;
     width: 100%;
     text-align: left;
+}
+[type="submit"]{
+  padding: 9px 18px;
 }
 }
 @media screen and (max-width: 600px){
