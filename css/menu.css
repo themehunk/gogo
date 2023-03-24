@@ -66,7 +66,7 @@ color:#9c9c9c;
     display: inline-block;
 }
 .gogo-menu li ul.sub-menu li > a > .arrow:before {
-    content: "\f105" !important;
+    content: "\f105";
 }
 .gogo-menu > li > ul.sub-menu {
     display: none;
@@ -265,6 +265,13 @@ ul[data-menu-style="vertical"] > li {
 /*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768" }) function*/
 
 @media screen and (max-width: 1024px){
+    .gogo-menu li,
+    .gogo-menu a{
+        position: relative;
+    }
+    .gogo-menu li ul.sub-menu li > a > .arrow:before{
+        content: "\f107";
+    }
 .mobile-above-menu-active .sider.gogo-menu-hide.left,
 .mobile-menu-active .sider.gogo-menu-hide.left,
 .mobile-bottom-menu-active .sider.gogo-menu-hide.left{
@@ -324,7 +331,7 @@ display: -webkit-inline-box;
     }
     .gogo-menu > li > a > .arrow:before {
         float: right;
-        content: "\f105";
+        content: "\f107";
     }
 .sider.left .gogo-menu > li, .sider.right .gogo-menu > li {
     border-bottom: 1px solid #eee;
@@ -346,7 +353,7 @@ padding-right:15px;
     background: none;
 }
     li.menu-active > a > .arrow:before {
-        content: "\f107" !important;
+        content: "\f106";
     }
     .gogo-menu li ul.sub-menu > li {
         width: 100%;
@@ -369,7 +376,7 @@ padding-right:15px;
         position: static;
     }
     .gogo-menu li ul.sub-menu li.menu-active > a > .arrow:before {
-        content: "\f107" !important;
+        content: "\f106";
     }
   .gogo-menu > li > a,.top-header-bar .gogo-menu > li > a, 
     .bottom-header-bar .gogo-menu > li > a {
@@ -553,14 +560,16 @@ display:none;
  .mobile-menu-active .sider.overcenter,
  .mobile-above-menu-active .sider.overcenter,
  .mobile-bottom-menu-active .sider.overcenter{
-  position:fixed;
+  width: 84%;
+  padding: 27px;
+    position:fixed;
   left:0px;
-  right:0;
+  right: initial;
   top:0;
   bottom:0;
   margin:0 auto;
   height: 100vh;
-  background:#fff;
+  background: #fff;
   display:block;
   z-index: 9999;
       -webkit-transition: all 0.3s ease;

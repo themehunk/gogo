@@ -74,7 +74,17 @@ define( 'GOGO_THEME_NAME', 'gogo' );
         );
         add_theme_support( 'custom-background',$args );
 
+		add_theme_support( 'wp-block-styles' );
 
+		add_theme_support( 'align-wide' );
+
+		add_theme_support( 'editor-styles' );
+
+		add_editor_style( 'editor.css' );
+
+		add_theme_support( 'custom-spacing' );
+
+		add_theme_support( 'responsive-embeds' );
 
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
