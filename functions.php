@@ -74,7 +74,17 @@ define( 'GOGO_THEME_NAME', 'gogo' );
         );
         add_theme_support( 'custom-background',$args );
 
+		add_theme_support( 'wp-block-styles' );
 
+		add_theme_support( 'align-wide' );
+
+		add_theme_support( 'editor-styles' );
+
+		add_editor_style( 'editor.css' );
+
+		add_theme_support( 'custom-spacing' );
+
+		add_theme_support( 'responsive-embeds' );
 
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
@@ -90,15 +100,20 @@ define( 'GOGO_THEME_NAME', 'gogo' );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
+			'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'gogo' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'gogo' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'gogo' ),
+            'unlimited-blocks' => array(
+                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'gogo' ),
                  'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
+				 'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
             ),
 
             'th-advance-product-search' => array(
