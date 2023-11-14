@@ -118,6 +118,7 @@ $gogo_style.=".thunk-service .owl-dots .owl-dot.active,
 		$gogo_style.="
 		.thunk-post-wrapper .post-category a,
 		.thunk-service .service-txt h4,
+		.thunk-service .service-txt h3,
 		.thunk-team-social i{
 			color:{$gogo_link_clr};
 		}";
@@ -125,6 +126,7 @@ $gogo_style.=".thunk-service .owl-dots .owl-dot.active,
 		$gogo_style.="
 		.thunk-post-wrapper .post-category a:hover,
 		.thunk-service .service-txt h4:hover,
+		.thunk-service .service-txt h3:hover,
 		.thunk-team-social i:hover{
 			color:{$gogo_link_hvr_clr};
 		}";
@@ -142,6 +144,7 @@ $gogo_style.=".thunk-service .owl-dots .owl-dot.active,
 		.thunk-portfolio .short-heading,
 		.thunk-blog h4,
 		.thunk-service .service-txt h4,
+		.thunk-service .service-txt h3,
 		.video-window h4,
 		.call-to-heading{
 			color:{$gogo_title_clr};
@@ -388,7 +391,8 @@ if (gogo_pro_activation_class() !=''){
 	.thunk-blog .post-meta{
 		color: $blog_meta_color;
 	}
-	.thunk-blog .post-title h4{
+	.thunk-blog .post-title h4,
+	.thunk-blog .post-title h3{
 		color: $blog_title_color;
 	}
 	";
@@ -440,7 +444,8 @@ if (gogo_pro_activation_class() !=''){
 	.thunk-service .vertical-text-border{
 		background:{$service_divider_color};
 		} 
-	.thunk-service .service-txt h4{
+	.thunk-service .service-txt h4,
+	.thunk-service .service-txt h3{
 		color: $service_title_color;
 		}
 		.service-img i{

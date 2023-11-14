@@ -233,7 +233,8 @@ color:#fff;
     width: auto;
     height: auto;
 }
-.service-txt h4{
+.service-txt h4,
+.service-txt h3{
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 1px;
@@ -312,7 +313,8 @@ color:#fff;
 .thunk-blog img{
 margin-bottom:8px
 }
-.thunk-blog .post-title h4{
+.thunk-blog .post-title h4,
+.thunk-blog .post-title h3{
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 1px;
@@ -1888,7 +1890,8 @@ display:initial;
 	.th-center-align .service-txt{
 		padding-left: 0;
 	}
-	.th-center-align .thunk-service .service-txt h4{
+	.th-center-align .thunk-service .service-txt h4,
+	.th-center-align .thunk-service .service-txt h3{
 		text-align: center;
 		margin-top: 12px;
 	}
