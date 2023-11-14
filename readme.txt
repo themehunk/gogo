@@ -2,8 +2,8 @@
 Contributors: Themehunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, blog, one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-background, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template,post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 5.6
-Tested up to: 6.2
-Stable tag: 1.1.8
+Tested up to: 6.4
+Stable tag: 1.1.9
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -21,6 +21,9 @@ Yes our theme supports builder
 Yes, this theme is tested with latest version of WordPress, you can use it for your site.
 
 == Changelog ==
+= 1.1.9 =
+Update : Theme Compatibility added for custom user child theme.
+
 = 1.1.8 =
 Update : Style improved.
 Update : Theme tested with latest WordPress 6.2.
@@ -89,9 +92,8 @@ Blog page issue fixed
 * theme released
 
 == Upgrade Notice ==
-= 1.1.8 =
-Update : Style improved.
-Update : Theme tested with latest WordPress 6.2.
+= 1.1.9 =
+Update : Theme Compatibility added for custom user child theme.
 
 == Resources ==
 
