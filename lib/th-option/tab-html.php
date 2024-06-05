@@ -21,7 +21,7 @@
         <div class="th-option-bottom-hdr">
             <a class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','gogo');?></a>
 
-            <a class="tablinks" onclick="openTab(event, 'Import-Demo-Content')"><?php _e('Setup Home Page','gogo');?> </a>
+            <a class="tablinks" onclick="openTab(event, 'Import-Demo-Content')"><?php _e('Demo Import','gogo');?> </a>
             <a class="tablinks" onclick="openTab(event, 'Recommended-Plugin')"><?php _e('Recommended Plugin','gogo');?> </a>
             
             <a class="tablinks get-child" onclick="openTab(event, 'Get-Child-Theme')"><?php _e('Get Child Theme','gogo');?></a>
@@ -60,12 +60,12 @@
 
                 <div class="rcp theme_link th-row import-demo">
                     <div class="import-image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/setup-homepage.png">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/import.gif">
                     </div>
                 <div class="title-plugin">
-                <h3><?php _e('Click Here To Setup Home Page','gogo'); ?></h3>
+                <h3><?php _e('Click Here To Import Demo','gogo'); ?></h3>
 				 
-				 <p> <?php _e('Click the below button and it will automatically set your homepage. You will need to install the Hunk Companion plugin for properly working sections on the homepage.', 'gogo'); ?></p>
+				 <p> <?php _e('Click the below button and import  homepage. You will need to install the Hunk Companion plugin for properly working sections on the homepage.', 'gogo'); ?></p>
 
                  <!---
               <a class="button disabled importdemo"><?php //_e( 'Setup Home Page', 'gogo' ); ?></a> -->
@@ -88,7 +88,7 @@
         }
         ?>
         <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?PHP echo $class; ?>"><?php _e($btn_text,'gogo'); ?></button>
-        <a style="<?php echo $style; ?>";  target="_blank" href="<?php echo get_home_url(); ?>" class="button alink button-primary"><?php _e('View Home Page','gogo'); ?></a>
+        <a style="<?php echo $style; ?>"; class="button alink disabled importdemo"><?php _e('Import Demo','gogo'); ?></a>
          </p>
              </div>
              </div>

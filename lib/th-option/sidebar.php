@@ -6,7 +6,7 @@
             <p>
             <b><?php _e('Pre-made premium templates','gogo'); ?> </b><br>
             <?php _e('Gogo Pro is an amazing multipurpose theme made for Agency, small businesses, firm and corporate websites.','gogo'); ?> </p>
-                <center><a class="button ztabtn" target="_blank" href="<?php echo esc_url('https://themehunk.com/product/gogo-amazing-wordpress-theme/');?>"><?php _e('Upgrade','gogo'); ?> </a></center>
+                <center><a class="button ztabtn" target="_blank" href="<?php echo esc_url('https://themehunk.com/product/gogo-amazing-wordpress-theme/');?>"><?php _e('Upgrade To Pro','gogo'); ?> </a></center>
             </div>
             <hr>
             <div class="section">

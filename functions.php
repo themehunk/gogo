@@ -6,7 +6,7 @@
  * @since 1.0
  */
 if ( ! function_exists( 'gogo_setup' ) ) :
-define( 'GOGO_THEME_VERSION','1.0.0');
+define( 'GOGO_THEME_VERSION','1.1.9');
 define( 'GOGO_THEME_DIR', get_template_directory() . '/' );
 define( 'GOGO_THEME_URI', get_template_directory_uri() . '/' );
 define( 'GOGO_THEME_SETTINGS', 'gogo-settings' );
@@ -100,24 +100,19 @@ define( 'GOGO_THEME_NAME', 'gogo' );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
-			'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'gogo' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ),
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'gogo' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             ), 
-            'unlimited-blocks' => array(
-                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'gogo' ),
+            'vayu-blocks' => array(
+                'name' => esc_html__( 'Vayu blocks For Gutenberg', 'gogo' ),
                  'img' => 'icon-128x128.png',
-				 'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
+				 'active_filename' => 'vayu-blocks/vayu-blocks.php',
             ),
 
             'th-advance-product-search' => array(
-            'name' => esc_html__( 'TH Advance Product Search', 'gogo' ),
+            'name' => esc_html__( 'Product & Post Search', 'gogo' ),
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
             ),
@@ -125,16 +120,7 @@ define( 'GOGO_THEME_NAME', 'gogo' );
                 'name' => esc_html__( 'TH Variation Swatches', 'gogo' ),
                  'img' => 'icon-128x128.gif',
                 'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),
-            
-
-            'elementor' => array(
-                'name' => esc_html__( 'Elementor', 'gogo' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'elementor/elementor.php',
-            ),
-
-
+            )
 
         ) );
 
