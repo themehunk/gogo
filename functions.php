@@ -6,7 +6,7 @@
  * @since 1.0
  */
 if ( ! function_exists( 'gogo_setup' ) ) :
-define( 'GOGO_THEME_VERSION','1.1.9');
+define( 'GOGO_THEME_VERSION','1.2.0');
 define( 'GOGO_THEME_DIR', get_template_directory() . '/' );
 define( 'GOGO_THEME_URI', get_template_directory_uri() . '/' );
 define( 'GOGO_THEME_SETTINGS', 'gogo-settings' );
