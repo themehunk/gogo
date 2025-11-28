@@ -87,7 +87,7 @@
 
         }
         ?>
-        <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?PHP echo $class; ?>"><?php _e($btn_text,'gogo'); ?></button>
+        <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?php echo $class; ?>"><?php echo esc_html($btn_text); ?></button>
         <a style="<?php echo $style; ?>"; class="button alink disabled importdemo"><?php _e('Import Demo','gogo'); ?></a>
          </p>
              </div>

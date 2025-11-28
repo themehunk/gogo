@@ -17,8 +17,12 @@
  get_template_part('/inc/blog-single-function');
  get_template_part('/inc/default-string');
  //theme-option
+include_once(ABSPATH.'wp-admin/includes/plugin.php');
+if ( !is_plugin_active('gogo-pro/gogo-pro.php') ) {
 get_template_part('lib/th-option/th-option');
+}
 get_template_part('lib/th-option/child-notify');
+
 
  //pagination
  get_template_part('inc/pagination/pagination');
